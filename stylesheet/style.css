@@ -1,0 +1,171 @@
+*:root{ 
+  /* ---link:#000;
+  ---hover:b000;
+  ---main:#000;
+  ---bg:#f0f0f0;
+  ---size:99vmin;
+  ---ratio:1/1.1; */
+  ---shad: 4px 4px 16px -4px black;
+  font-size:calc(var(--size)/100);
+}
+body{
+    /* margin:1rem;
+    padding:0.5rem; */
+    
+    font-family:'Times New Roman';
+    color:#f0f0f0;
+}
+a{
+    text-decoration: none;
+    color:#f0f0f0;
+    text-size-adjust: right;
+    
+    
+}
+ /* header{
+    display:flex;
+    column-span: all;
+    justify-content:space-between ;
+    align-items:center;
+    font-weight: 800;
+    /* padding:40px 0; */
+}  
+
+.sbody{
+    padding: 5rem;
+    margin:0 auto;
+    background-color: #f0f0f0;
+    align-items: center;
+ 
+}
+ 
+/* nav{
+    display:flex;
+    font-weight:bold;
+    text-transform:uppercase;
+    word-spacing:30
+
+
+    
+    
+    
+} */
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem; 
+    align-items: center;
+    float:left;
+    position:absolute;
+    left:35%;
+    top:9%;
+
+    
+
+
+}
+.container a:hover{
+    color: black;
+}
+.HELLO img{
+    display: flex;
+    gap:3rem;
+    position: left;
+    color:black;
+    width: 5vw;
+   
+
+}
+.container1{
+    padding: 1rem;
+    margin: 4rem;
+    display: flex;
+    gap:1.5rem;
+    color: black;
+}
+.image img{
+    width:22vw;
+    margin: right 2rem;
+    
+
+
+
+
+
+}
+.intro-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+
+
+
+
+}
+.intro p{
+    font-size: 1rem;
+}
+.intro-title2{
+    font-size: 1.5rem;
+}
+.sheader{
+    display: flex;
+    gap:2rem;
+    box-shadow: var(---shad);
+    padding: 1.4rem;
+    background-color:rgb(190, 52, 52);
+    
+    
+   
+
+
+}
+.container2{
+    display: flex;
+    color:black;
+
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-whatsapp{
+    color:hsl(106, 83%, 49%);
+}
+.fa-twitter{
+    color:turquoise;  
+}
+.fa-linkedin{
+    color:blue;
+
+}
+.icons{
+    display: flex;
+    gap:1.5rem;
+
+}
+@media screen (max-device-width:480px) {
+.sheader{
+    padding:0;
+    
+    
+
+}
+.HELLO{
+    Position:absolute;
+    Top:8px;
+    Left: 40px;
+    
+}
+.image img{
+    flex-direction:column;
+
+
+}
+.container1{
+    display:flex;
+    flex-direction: column;
+}
+ 
+
+
+
+
